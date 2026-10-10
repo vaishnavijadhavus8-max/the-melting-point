@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Collection | Products</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #fcf8f2; text-align: center; color: #333; }
+        nav { background-color: #2c2c2c; padding: 15px; }
+        nav a { color: #fcf8f2; margin: 0 20px; text-decoration: none; font-size: 18px; font-weight: bold; }
+        nav a:hover { color: #ffbc42; }
+        .logo-container { margin-top: 20px; }
+        .brand-logo { width: 100px; height: auto; }
+        .product-container { display: flex; justify-content: center; flex-wrap: wrap; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Updated Card Design to hold images neatly */
+        .product-card { border: 1px solid #e0e0e0; background: white; margin: 20px; border-radius: 12px; width: 280px; box-shadow: 0px 6px 12px rgba(0,0,0,0.05); text-align: left; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; }
+        .product-img { width: 100%; height: 200px; object-fit: cover; border-bottom: 1px solid #e0e0e0; }
+        .product-details { padding: 20px; display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1; }
+        
+        .product-tag { background-color: #ffbc42; color: #2c2c2c; font-size: 12px; font-weight: bold; padding: 4px 8px; border-radius: 4px; display: inline-block; margin-bottom: 10px; width: max-content; }
+        .price { font-size: 22px; color: #2e7d32; font-weight: bold; margin: 10px 0; }
+        .whatsapp-btn { background-color: #25D366; color: white; padding: 12px 15px; text-decoration: none; border-radius: 6px; font-weight: bold; display: block; text-align: center; margin-top: 15px; transition: 0.3s; }
+        .whatsapp-btn:hover { background-color: #128C7E; }
+        .alert-small { color: #d32f2f; font-size: 11px; font-weight: bold; margin-top: 5px; display: block; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Embedded Brand Logo -->
+    <div class="logo-container">
+        <img src="logo.jpg" alt="The Melting Point Logo" class="brand-logo">
+    </div>
+
+    <h1>🪔 The Diwali Edit — Shopping List 🪔</h1>
+    <p>Browse our custom creations and click the button to send orders directly to our WhatsApp!</p>
+
+    <div class="product-container">
+        
+        <!-- Product 1: Marigold Terracotta Diya -->
+        <div class="product-card">
+            <img src="diya.png" alt="Marigold Terracotta Diya" class="product-img">
+            <div class="product-details">
+                <div>
+                    <span class="product-tag">Best Seller</span>
+                    <h3>Marigold Terracotta Diya</h3>
+                    <p style="color: #777; font-size: 14px;">Infused with real floral motifs and intricate clay designs.</p>
+                    <p style="font-size: 14px;"><strong>Vessel:</strong> Earthy Clay Diya</p>
+                    <p style="font-size: 14px;"><strong>Burn Time:</strong> 12+ Hours</p>
+                </div>
+                <div>
+                    <p class="price">₹199 <del style="color:red; font-size:14px;">₹299</del></p>
+                    <a href="https://wa.me." target="_blank" class="whatsapp-btn">
+                        💬 Order via WhatsApp
+                    </a>
+                    <span class="alert-small">⚠️ Burn on a heat-resistant surface only.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2: Festive Mithai Platter -->
+        <div class="product-card">
+            <img src="mithai.png" alt="Festive Mithai Platter" class="product-img">
+            <div class="product-details">
+                <div>
+                    <span class="product-tag">Unique Gift</span>
+                    <h3>Festive Mithai Platter</h3>
+                    <p style="color: #777; font-size: 14px;">Artisanal wax embeds shaped like Laddu & Kaju Katli with silver foil details.</p>
+                    <p style="font-size: 14px;"><strong>Vessel:</strong> Wide Terracotta Plate</p>
+                    <p style="font-size: 14px;"><strong>Burn Time:</strong> 20+ Hours</p>
+                </div>
+                <div>
+                    <p class="price">₹349 <del style="color:red; font-size:14px;">₹499</del></p>
+                    <a href="https://wa.me." target="_blank" class="whatsapp-btn">
+                        💬 Order via WhatsApp
+                    </a>
+                    <span class="alert-small">⚠️ Warning: Not edible. Keep away from kids.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3: Blooming Pink Lotus Urli -->
+        <div class="product-card">
+            <img src="lotus.png" alt="Blooming Pink Lotus Urli" class="product-img">
+            <div class="product-details">
+                <div>
+                    <span class="product-tag">Premium Luxury</span>
+                    <h3>Blooming Lotus Urli</h3>
+                    <p style="color: #777; font-size: 14px;">Stunning multi-wick pink lotus candle setup floating elegantly in brass bowl layouts.</p>
+                    <p style="font-size: 14px;"><strong>Vessel:</strong> Hammered Brass Bowl</p>
+                    <p style="font-size: 14px;"><strong>Burn Time:</strong> 35+ Hours</p>
+                </div>
+                <div>
+                    <p class="price">₹499 <del style="color:red; font-size:14px;">₹699</del></p>
+                    <a href="https://wa.me." target="_blank" class="whatsapp-btn">
+                        💬 Order via WhatsApp
+                    </a>
+                    <span class="alert-small">⚠️ Hot metal vessel! Do not touch when lit.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4: Sunflower Glass Cloche -->
+        <div class="product-card">
+            <img src="sunflower.png" alt="Sunflower Glass Jar" class="product-img">
+            <div class="product-details">
+                <div>
+                    <span class="product-tag">Aromatherapy</span>
+                    <h3>Sunflower Glass Jar</h3>
+                    <p style="color: #777; font-size: 14px;">Intricately sculpted yellow flower detail inside a ribbed crystal glass container with a lid.</p>
+                    <p style="font-size: 14px;"><strong>Vessel:</strong> Premium Cut-Glass Jar</p>
+                    <p style="font-size: 14px;"><strong>Burn Time:</strong> 25+ Hours</p>
+                </div>
+                <div>
+                    <p class="price">₹299 <del style="color:red; font-size:14px;">₹399</del></p>
+                    <a href="https://wa.me." target="_blank" class="whatsapp-btn">
+                        💬 Order via WhatsApp
+                    </a>
+                    <span class="alert-small">⚠️ Extinguish before closing with glass lid.</span>
+                </div>
+            </div>
+        </div>
+
+<!-- CARD 5: Divine Ganesha Sculpted Candle (New Image 3) -->
+        <div class="product-card">
+            <img src="ganesh.png" alt="Divine Ganesha Candle" class="product-img">
+            <div class="product-details">
+                <div>
+                    <span class="product-tag">Festive Special</span>
+                    <h3>Divine Ganesha Idol</h3>
+                    <p style="color: #777; font-size: 14px;">Beautifully sculpted Ganesha idol candles available in festive pastel colors for auspicious mandir decorations.</p>
+                    <p style="font-size: 14px;"><strong>Vessel:</strong> Free-Standing Pillar Mold</p>
+                    <p style="font-size: 14px;"><strong>Burn Time:</strong> 15+ Hours</p>
+                </div>
+                <div>
+                    <p class="price">₹249 <del style="color:red; font-size:14px;">₹349</del></p>
+                    <a href="https://wa.me." target="_blank" class="whatsapp-btn">
+                        💬 Order via WhatsApp
+                    </a>
+                    <span class="alert-small">⚠️ Always place on a metallic plate before burning.</span>
+                </div>
+            </div>
+        </div>
+
+       <!-- CARD 6: Floating Shahi Gulab Urli Bowls -->
+<div class="product-card">
+    <!-- Image file source updated to floating.jpg -->
+    <img src="rose.png" alt="Floating Rose Urli Candles" class="product-img">
+    <div class="product-details">
+        <div>
+            <span class="product-tag">Premium Luxury</span>
+            <h3>Floating Shahi Gulab Set</h3>
+            <p style="color: #777; font-size: 14px;">A set of realistic multi-shaded pink and red rose flower candles made to float gracefully inside water bowls or urlis.</p>
+            <p style="font-size: 14px;"><strong>Vessel:</strong> Intended for Water Floating</p>
+            <p style="font-size: 14px;"><strong>Burn Time:</strong> 6+ Hours per flower</p>
+        </div>
+        <div>
+            <p class="price">₹399 <del style="color:red; font-size:14px;">₹549</del></p>
+            <!-- Remember to replace 911234567890 with your real mobile number -->
+            <a href="https://wa.me." target="_blank" class="whatsapp-btn">
+                💬 Order via WhatsApp
+            </a>
+            <span class="alert-small">⚠️ Float only in wide, still water containers.</span>
+        </div>
+    </div>
+</div>
+
+<!-- CARD 7: Eco-Friendly Coconut Shell (New Image 1) -->
+        <div class="product-card">
+            <img src="coconut.png" alt="Eco-Friendly Coconut Candle" class="product-img">
+            <div class="product-details">
+                <div>
+                    <span class="product-tag tag-eco">Eco-Friendly</span>
+                    <h3>Botanical Coconut Shell</h3>
+                    <p style="color: #777; font-size: 14px;">Real reclaimed coconut shells filled with natural soy wax, dried orange slices, cinnamon sticks, and botanicals.</p>
+                    <p style="font-size: 14px;"><strong>Vessel:</strong> Natural Coconut Shell</p>
+                    <p style="font-size: 14px;"><strong>Burn Time:</strong> 30+ Hours</p>
+                </div>
+                <div>
+                    <p class="price">₹279 <del style="color:red; font-size:14px;">₹399</del></p>
+                    <a href="https://wa.me." target="_blank" class="whatsapp-btn">
+                        💬 Order via WhatsApp
+                    </a>
+                    <span class="alert-small">⚠️ Place on a flat coaster while burning.</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
